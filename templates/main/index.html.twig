@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<ul class="list-group">
+
+    {% for name in names %}
+  <li class="list-group-item">{{name}}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

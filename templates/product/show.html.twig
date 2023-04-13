@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">{{product.name}}</th>
+      <th scope="row">{{product.price}}</th>
+    </tr>
+  </tbody>
+
+{% endblock %}
